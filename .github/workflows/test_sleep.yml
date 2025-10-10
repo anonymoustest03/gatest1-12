@@ -12,7 +12,7 @@ on:
 jobs:
   # Original 22 jobs, now sleeping for 5 minutes
   job_1: 
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 1 for 5 minutes
         run: |
@@ -21,7 +21,7 @@ jobs:
           echo "Job 1 finished sleeping"
 
   job_2:
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 2 for 5 minutes
         run: |
@@ -30,7 +30,7 @@ jobs:
           echo "Job 2 finished sleeping"
 
   job_3:
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 3 for 5 minutes
         run: |
@@ -39,7 +39,7 @@ jobs:
           echo "Job 3 finished sleeping"
 
   job_4:
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 4 for 5 minutes
         run: |
@@ -48,7 +48,7 @@ jobs:
           echo "Job 4 finished sleeping"
 
   job_5:
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 5 for 5 minutes
         run: |
@@ -57,7 +57,7 @@ jobs:
           echo "Job 5 finished sleeping"
 
   job_6:
-    runs-on: macos-latest #ubuntu-latest arc-runner-set-c5x
+    runs-on: macos-latest #windows-latest arc-runner-set-c5x
     steps:
       - name: Sleeping job 6 for 5 minutes
         run: |
@@ -66,7 +66,7 @@ jobs:
           echo "Job 6 finished sleeping"
 
   job_7:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 7 for 5 minutes
         run: |
@@ -75,7 +75,7 @@ jobs:
           echo "Job 7 finished sleeping"
 
   job_8:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 8 for 5 minutes
         run: |
@@ -84,7 +84,7 @@ jobs:
           echo "Job 8 finished sleeping"
 
   job_9:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 9 for 5 minutes
         run: |
@@ -93,7 +93,7 @@ jobs:
           echo "Job 9 finished sleeping"
 
   job_10:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 10 for 5 minutes
         run: |
@@ -102,7 +102,7 @@ jobs:
           echo "Job 10 finished sleeping"
 
   job_11:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 11 for 5 minutes
         run: |
@@ -156,7 +156,7 @@ jobs:
           echo "Job 16 finished sleeping"
 
   job_17:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 17 for 5 minutes
         run: |
@@ -165,7 +165,7 @@ jobs:
           echo "Job 17 finished sleeping"
 
   job_18:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 18 for 5 minutes
         run: |
@@ -174,7 +174,7 @@ jobs:
           echo "Job 18 finished sleeping"
 
   job_19:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 19 for 5 minutes
         run: |
@@ -183,7 +183,7 @@ jobs:
           echo "Job 19 finished sleeping"
 
   job_20:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     steps:
       - name: Sleeping job 20 for 5 minutes
         run: |
@@ -192,7 +192,7 @@ jobs:
           echo "Job 20 finished sleeping"
 
   job_21:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     # needs: [job_1]
     steps:
       - name: Sleeping job 21 for 5 minutes
@@ -202,7 +202,7 @@ jobs:
           echo "Job 21 finished sleeping"
 
   job_22:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     # needs: [job_2]
     steps:
       - name: Sleeping job 22 for 5 minutes
@@ -212,7 +212,7 @@ jobs:
           echo "Job 22 finished sleeping"
 
   job_23:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     # needs: [job_1]
     steps:
       - name: Sleeping job 23 for 5 minutes
@@ -222,7 +222,7 @@ jobs:
           echo "Job 21 finished sleeping"
 
   job_24:
-    runs-on: ubuntu-latest #arc-runner-set-c5x
+    runs-on: windows-latest #arc-runner-set-c5x
     # needs: [job_2]
     steps:
       - name: Sleeping job 24 for 5 minutes
