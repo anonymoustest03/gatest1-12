@@ -210,3 +210,23 @@ jobs:
           echo "Job 22 starting sleep for 300 seconds"
           sleep 120
           echo "Job 22 finished sleeping"
+
+  job_23:
+    runs-on: ubuntu-latest #arc-runner-set-c5x
+    # needs: [job_1]
+    steps:
+      - name: Sleeping job 23 for 5 minutes
+        run: |
+          echo "Job 21 starting sleep for 300 seconds"
+          sleep 120
+          echo "Job 21 finished sleeping"
+
+  job_24:
+    runs-on: ubuntu-latest #arc-runner-set-c5x
+    # needs: [job_2]
+    steps:
+      - name: Sleeping job 24 for 5 minutes
+        run: |
+          echo "Job 22 starting sleep for 300 seconds"
+          sleep 120
+          echo "Job 22 finished sleeping"
