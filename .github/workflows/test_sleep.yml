@@ -17,7 +17,7 @@ jobs:
       - name: Sleeping job 1 for 5 minutes
         run: |
           echo "Job 1 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 1 finished sleeping"
 
   job_2:
@@ -26,7 +26,7 @@ jobs:
       - name: Sleeping job 2 for 5 minutes
         run: |
           echo "Job 2 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 2 finished sleeping"
 
   job_3:
@@ -35,7 +35,7 @@ jobs:
       - name: Sleeping job 3 for 5 minutes
         run: |
           echo "Job 3 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 3 finished sleeping"
 
   job_4:
@@ -44,7 +44,7 @@ jobs:
       - name: Sleeping job 4 for 5 minutes
         run: |
           echo "Job 4 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 4 finished sleeping"
 
   job_5:
@@ -53,7 +53,7 @@ jobs:
       - name: Sleeping job 5 for 5 minutes
         run: |
           echo "Job 5 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 5 finished sleeping"
 
   job_6:
@@ -62,7 +62,7 @@ jobs:
       - name: Sleeping job 6 for 5 minutes
         run: |
           echo "Job 6 starting sleep for 300 seconds"
-          sleep 30
+          sleep 120
           echo "Job 6 finished sleeping"
 
   job_7:
@@ -83,14 +83,14 @@ jobs:
           sleep 120
           echo "Job 8 finished sleeping"
 
-  # job_9:
-  #   runs-on: ubuntu-latest #arc-runner-set-c5x
-  #   steps:
-  #     - name: Sleeping job 9 for 5 minutes
-  #       run: |
-  #         echo "Job 9 starting sleep for 300 seconds"
-  #         sleep 1200
-  #         echo "Job 9 finished sleeping"
+  job_9:
+    runs-on: ubuntu-latest #arc-runner-set-c5x
+    steps:
+      - name: Sleeping job 9 for 5 minutes
+        run: |
+          echo "Job 9 starting sleep for 300 seconds"
+          sleep 120
+          echo "Job 9 finished sleeping"
 
   # job_10:
   #   runs-on: ubuntu-latest #arc-runner-set-c5x
