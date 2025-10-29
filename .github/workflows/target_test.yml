@@ -27,6 +27,8 @@ jobs:
           echo "Job 1 finished sleeping"
 
       - name: Checkout code
+        with:
+            ref: ${{ github.event.pull_request.head.sha }}
         uses: actions/checkout@v5 
           
       - name: Run Fibonacci Task (Shell Script)
