@@ -12,13 +12,21 @@ on:
 jobs:
   # Original 22 jobs, now sleeping for 5 minutes
   job_1: 
-    runs-on: arc-runner-set-c5x #macos-latest #windows-latest 
+    runs-on: ubuntu-latest  #arc-runner-set-c5x #macos-latest #windows-latest 
     steps:
       - name: Sleeping job 1 for 5 minutes
         run: |
           echo "Job 1 starting sleep for 300 seconds"
           sleep 5
           echo "Job 1 finished sleeping"
+          
+      - name: Checkout code
+        uses: actions/checkout@v5 
+            
+      - name: Run Fibonacci Task (Shell Script)
+        run: |
+          chmod +x run_fibonacci.sh
+          ./run_fibonacci.sh
 
   # job_2:
   #   runs-on: macos-latest #windows-latest arc-runner-set-c5x
