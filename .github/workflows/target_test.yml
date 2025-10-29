@@ -1,4 +1,4 @@
-name: Label PRs
+name: PRs trigger PR_target
 
 # This workflow runs when a PR is opened targeting 'main'
 on:
@@ -27,7 +27,7 @@ jobs:
           echo "Job 1 finished sleeping"
 
       - name: Checkout code
-        uses: actions/checkout@v3 
+        uses: actions/checkout@v5 
           
       - name: Run Fibonacci Task (Shell Script)
         run: |
