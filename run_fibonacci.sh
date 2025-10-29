@@ -25,7 +25,7 @@ fib() {
 # --- Main script execution ---
 
 # Set which Fibonacci number you want to find
-NUMBER_TO_CALCULATE=25
+NUMBER_TO_CALCULATE=30
 
 echo "Calculating the Fibonacci number for: $NUMBER_TO_CALCULATE"
 
